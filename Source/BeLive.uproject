@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "BeLive - Beautiful City Simulation",
+	"Modules": [
+		{
+			"Name": "BeLive",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"InputCore",
+				"HeadMountedDisplay",
+				"EnhancedInput",
+				"ChaosVehicles",
+				"NavigationSystem",
+				"Niagara",
+				"GameplayTasks",
+				"UMG",
+				"Slate",
+				"SlateCore"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ChaosVehicles",
+			"Enabled": true,
+			"MarketplaceURL": ""
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true,
+			"MarketplaceURL": ""
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true,
+			"MarketplaceURL": ""
+		},
+		{
+			"Name": "NavigationSystem",
+			"Enabled": true,
+			"MarketplaceURL": ""
+		}
+	]
+}
